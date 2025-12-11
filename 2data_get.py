@@ -15,15 +15,15 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ============ 설정 ============
-FRED_API_KEY = "33be08b3693120462ceb4099f9ef114e"
+FRED_API_KEY = ""
 
 # MySQL 접속 정보
 MYSQL_CONFIG = {
-    'user': 'root',
-    'password': '0818',
-    'host': 'localhost',
-    'port': 3306,
-    'db': 'exchangeDATAbase'
+    'user': '',
+    'password': '',
+    'host': '',
+    'port': ,
+    'db': ''
 }
 
 # 데이터 수집 기간
@@ -523,4 +523,5 @@ if __name__ == "__main__":
             print(recent_data)
             print("-"*80)
     else:
+
         print("\n❌ 업데이트 실패")

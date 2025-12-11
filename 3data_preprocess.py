@@ -12,13 +12,13 @@ warnings.filterwarnings('ignore')
 
 # ============ 설정 ===========
 MYSQL_CONFIG = {
-    'user': 'root',
-    'password': '0818',
-    'host': 'localhost',
-    'port': 3306,
-    'db': 'exchangeDATAbase',
-    'raw_table': 'macro_data',
-    'processed_table': 'processed_macro_data_v3' # v3 테이블 사용
+    'user': '',
+    'password': '',
+    'host': '',
+    'port': ,
+    'db': '',
+    'raw_table': '',
+    'processed_table': '' # v3 테이블 사용
 }
 
 def get_engine():
@@ -92,4 +92,5 @@ def preprocess():
     print("✅ 전처리 완료!")
 
 if __name__ == "__main__":
+
     preprocess()
